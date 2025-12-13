@@ -22,20 +22,20 @@ const PORT = process.env.PORT || 5000;
 // middlewares 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
-// app.use(cors(
-//     {
-//         origin: process.env.ORIGIN_URL,
-//         methods: ['GET','POST','PUT','PATCH','DELETE'],
-//         allowedHeaders: [
-//             "Content-Type",
-//             "Authorization",
-//             "Cache-Control",
-//             "Expires",
-//             "Pragma"
-//         ],
-//         credentials: true,
-//     }
-// ));
+app.use(cors(
+    {
+        origin: process.env.ORIGIN_URL,
+        methods: ['GET','POST','PUT','PATCH','DELETE'],
+        allowedHeaders: [
+            "Content-Type",
+            "Authorization",
+            "Cache-Control",
+            "Expires",
+            "Pragma"
+        ],
+        credentials: true,
+    }
+));
 app.use(cookieParser());
 
 app.get("/",(req,res)=>{
