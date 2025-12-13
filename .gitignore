@@ -1,0 +1,30 @@
+# My Resources
+Resources/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Build output
+/build
+/dist
+
+# OS-specific
+.DS_Store
+
+# IDEsx
+.vscode/
+.idea/
+
+# React-specific
+frontend/node_modules/
+frontend/build/
+
+# Backend-specific
+backend/node_modules/
+
+# .env
+frontend/.env
+backend/.env
