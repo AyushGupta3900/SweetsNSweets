@@ -183,3 +183,30 @@ Backend runs at:
 **Ayush Gupta**\
 Full-Stack Developer\
 Built as a learning and portfolio project
+
+------------------------------------------------------------------------
+
+## 📸 Application Screenshots
+
+### 🔐 Login Page
+![Login Page](./public/1loginPage.png)
+
+### 📝 Register Page
+![Register Page](./public/2registerPage.png)
+
+### 🏠 Dashboard (Admin View)
+![Dashboard Admin View](./public/3dashboardAdminView.png)
+
+### ✏️ Edit Sweet Modal
+![Edit Sweet](./public/4editSweet.png)
+
+### 🔍 Search & Filter
+![Search Filter](./public/5searchFilter.png)
+
+### ➕ Add Sweet (Admin)
+![Add Sweet](./public/6addSweet.png)
+
+### 👤 Dashboard (User View)
+![Dashboard User View](./public/7dashboardUserView.png)
+
+------------------------------------------------------------------------
